@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Rampart+One&display=swap');
+
+
+
+body {
+  font-family: sans-serif;
+  background: rgb(36,15,0);
+  background: linear-gradient(90deg, rgba(36,15,0,0.7435344827586207) 0%, rgba(121,64,9,1) 31%, rgba(0,212,255,1) 100%);
+  color: aliceblue;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.main-content {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.icons {
+  width: 3.5rem;
+  margin-right: 24px;
+}
+
+h4 {
+  font-size: 4rem;
+  margin: 40px 0 0 0;
+  color: aliceblue;
+}
+
+#weather_icon {
+  width: 7rem;
+}
+
+#currectTime{
+  font-size: 1.7rem;
+  margin: 0 0 0 0;
+  color: aliceblue;
+    font-family: 'Oswald',
+    sans-serif;
+}
+
+#search_city {
+  width: 10rem;
+  height: 32px;
+  border-radius: 12px;
+  text-align: center;
+  border: none;
+}
+
+form button {
+  margin-top: 20px;
+  width: 10rem;
+  height: 32px;
+  background-color: #4ebbbb;
+  border-radius: 12px;
+  cursor: pointer;
+  border-color: #4ebbbb;
+}
+
+form button:hover {
+  transition-duration: .3s;
+  transform: scale(1.1);
+}
+
+.mainWeather {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: 'Oswald',
+    sans-serif;
+  font-size: 2rem;
+  margin-top: 14px;
+}
+
+.mainWeather div {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.show-weather {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-self: flex-start;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.grafik {
+  display: flex;
+  align-items: center;
+}
+
+canvas {
+  margin-top: 40px;
+}
